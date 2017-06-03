@@ -1,0 +1,138 @@
+
+.coupon {
+}
+
+
+.categ {
+  margin-left: 0;
+  width: 30%;
+
+  padding: 4px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background-color:#03A9F4;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+}
+.giant {
+  width: 60%;
+  height: 30%;
+  margin-left: 20%;
+  margin-top: 3%;
+  margin-bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.des {
+  width: 90%;
+    height: 20%;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  text-align: right;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.deal {
+  text-align: center;
+  width: 100%;
+margin-bottom: 3%;
+  opacity: 0.7;
+}
+
+.deal h2 {
+  font-size: 40px;
+text-align: center;
+color: black;
+}
+.iframe1 {
+  position:fixed;
+  right: 0;
+  top: 9%;
+}
+
+.iframe2 {
+  position: fixed;
+  left: 0;
+  top: 9%;
+}
+
+.offer {
+
+  background-color: white;
+width: 50%;
+margin-left: 25%;
+margin-top: 10%;
+height: auto;
+}
+
+.iframe3 {
+  display: none;
+}
+/*iframe {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+width:50%;
+margin-left: 0;
+margin-right: 0;
+margin-top: 3%;
+margin-bottom: 3%;
+}*/
+#container2, #containerC2 {
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+   .offer {
+   width: 100%;
+   margin-left: 0%;
+   }
+.deal {
+
+}
+   .iframe1 {
+     position: absolute;
+     right: 0;
+     top: 9%;
+   }
+
+   .iframe2 {
+     position: absolute;
+     left: 0;
+     top: 700px;
+   }
+
+   .iframe3 {
+     position: absolute;
+     right: 0;
+     top: 1350px;
+     display: block;
+   }
+
+.offer {
+  position:absolute;
+  left: 0;
+  top: 2000;
+}
+
+.giant {
+  max-height: 10%;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.h4 {
+  display: none;
+}
+
+/*  iframe {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  width:100%;
+  margin-left: 0;
+  margin-right: 0;
+}*/
+}

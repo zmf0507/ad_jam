@@ -1,0 +1,121 @@
+body {
+    overflow:scroll;
+}
+
+#chats {
+  float: left;
+max-width: 60%;
+  margin-left: 3%;
+  border-radius : 4px;
+  background-color:  #03A9F4;
+  clear: both;
+  margin-top: 4%;
+padding: 6px;
+}
+
+.main {
+  width: 50%;
+  margin-left: 25%;
+  background-color: white;
+  overflow: scroll;
+}
+
+.chats h4 {
+  margin: 4px 4px 4px 4px;
+}
+#chats2 {
+  max-width:60%;
+  float: right;
+  border-radius : 4px;
+  background-color:#00E676;
+  clear: both;
+  margin-top: 4%;
+  padding: 1px 1px 1px 1px;
+padding: 6px;
+margin-right: 3%;
+}
+
+#icon {
+  font-size: 20px;
+}
+.entmsg input[type="text"] {
+  position: fixed;
+  margin-top: 2%;
+  width:40%;
+  margin-left: 0;
+  clear: left;
+  min-height: 7%;
+}
+.inp {
+  background-color: #03A9F4;
+  width: 50%;
+  position: fixed;
+  bottom: 0%;
+  height: 10%;
+margin-left: 0%;
+}
+#chat {
+  z-index:100;
+  width: 46%;
+  position: fixed;
+  bottom: 2%;
+  margin-left: 2%;
+}
+.btt {
+  position: fixed;
+  margin-top: 2%;
+  width: 30%;
+  margin-left: 40%;
+  height: 7%;
+  background-color: green;
+}
+
+@media screen and (max-width: 500px) {
+  .chats {
+    width:60%;
+    margin-left: 3%;
+    border-radius : 4px;
+    background-color: yellow;
+    clear: both;
+    margin-top: 4%;
+  }
+
+  .main {
+    width: 100%;
+    margin-left: 0%;
+    background-color: white;
+    overflow: scroll;
+  }
+  .chats2 {
+    width:60%;
+    margin-left: 37%;
+    border-radius : 4px;
+    background-color: blue;
+    clear: both;
+    margin-top: 4%;
+  }
+
+  .entmsg input[type="text"] {
+    position: fixed;
+    margin-top: 2%;
+    width:40%;
+    margin-left: 0;
+    clear: left;
+    min-height: 7%;
+  }
+  .inp {
+    width: 100%;
+    background-color: #03A9F4;
+    position: fixed;
+    bottom: 0%;
+    height: 10%;
+  margin-left: 0%;
+  }
+  #chat {
+    z-index:100;
+    width: 96%;
+    position: fixed;
+    bottom: 2%;
+    margin-left: 2%;
+  }
+}
